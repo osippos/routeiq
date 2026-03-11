@@ -821,7 +821,10 @@ class TestPackage:
         assert __version__ == "2.4.0"
 
     def test_pyproject_valid(self):
-        import tomllib
+        try:
+            import tomllib
+        except ModuleNotFoundError:
+            import pip._vendor.tomli as tomllib
         with open("pyproject.toml", "rb") as f:
             cfg = tomllib.load(f)
         assert cfg["project"]["name"] == "routeiq"
