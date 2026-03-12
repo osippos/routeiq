@@ -3,7 +3,7 @@
 # RouteIQ — One-line installer
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/osippos/routeiq/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/osippay/routeiq/main/install.sh | bash
 #
 # What it does:
 #   1. Clones the repo to ~/.routeiq
@@ -18,7 +18,7 @@
 set -euo pipefail
 
 INSTALL_DIR="${ROUTEIQ_HOME:-$HOME/.routeiq}"
-REPO_URL="https://github.com/osippos/routeiq.git"
+REPO_URL="https://github.com/osippay/routeiq.git"
 BRANCH="main"
 
 # Colors
@@ -156,7 +156,7 @@ echo ""
 echo "    4. Check discovered credentials:"
 echo "       ${CYAN}routeiq credentials${NC}"
 echo ""
-echo "  Docs:  https://github.com/osippos/routeiq"
+echo "  Docs:  https://github.com/osippay/routeiq"
 echo "  Config: $INSTALL_DIR/conf/router.yaml"
 echo ""
 

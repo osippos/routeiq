@@ -10,7 +10,7 @@ readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 authors = [
-    {name = "RouteIQ Contributors"},
+    {name = "osippay"},
 ]
 keywords = [
     "llm", "router", "ai", "openai", "anthropic", "claude",
@@ -59,10 +59,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/osippos/routeiq"
-Repository = "https://github.com/osippos/routeiq"
-Issues = "https://github.com/osippos/routeiq/issues"
-Changelog = "https://github.com/osippos/routeiq/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/osippay/routeiq"
+Repository = "https://github.com/osippay/routeiq"
+Issues = "https://github.com/osippay/routeiq/issues"
+Changelog = "https://github.com/osippay/routeiq/blob/main/CHANGELOG.md"
 
 [project.scripts]
 routeiq = "cli:main"

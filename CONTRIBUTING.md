@@ -4,15 +4,15 @@ Thanks for your interest in contributing! RouteIQ is open to contributions of al
 
 ## Quick links
 
-- [Issues](https://github.com/osippos/routeiq/issues) — bug reports and feature requests
-- [Discussions](https://github.com/osippos/routeiq/discussions) — questions and ideas
+- [Issues](https://github.com/osippay/routeiq/issues) — bug reports and feature requests
+- [Discussions](https://github.com/osippay/routeiq/discussions) — questions and ideas
 - [CHANGELOG](CHANGELOG.md) — what changed and when
 
 ## Development setup
 
 ```bash
 # Clone
-git clone https://github.com/osippos/routeiq.git
+git clone https://github.com/osippay/routeiq.git
 cd routeiq
 
 # Create virtual environment
@@ -67,7 +67,7 @@ routeiq/
 │   ├── cache.py         # LRU response cache
 │   ├── session.py       # Session persistence (model pinning)
 │   ├── analytics.py     # Report generation from logs
-│   ├── dashboard.py     # Live terminal dashboard (curses TUI)
+│   ├── dashboard.py     # Live terminal dashboard (Rich)
 │   ├── alerts.py        # Alert dispatcher (Telegram, Slack, email, webhook)
 │   ├── doctor.py        # Health checks and diagnostics
 │   ├── storage.py       # Atomic file operations
